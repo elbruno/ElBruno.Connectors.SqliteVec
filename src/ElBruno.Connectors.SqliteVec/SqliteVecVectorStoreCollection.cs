@@ -85,7 +85,7 @@ public sealed class SqliteVecVectorStoreCollection<TKey, TRecord> : VectorStoreC
         if (_mapper.VectorColumn is { } vecCol)
         {
             await using var vecCmd = connection.CreateCommand();
-            vecCmd.CommandText = $"CREATE VIRTUAL TABLE IF NOT EXISTS \"vec_{Name}\" USING vec0(\"{keyCol.ColumnName}\" TEXT, embedding float[{vecCol.VectorDimensions}])";
+            vecCmd.CommandText = $"CREATE VIRTUAL TABLE IF NOT EXISTS \"vec_{Name}\" USING vec0({keyCol.ColumnName} TEXT, embedding float[{vecCol.VectorDimensions}])";
             await vecCmd.ExecuteNonQueryAsync(cancellationToken);
         }
     }
