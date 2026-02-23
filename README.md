@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/elbruno/ElBruno.Connectors.SqliteVec?style=social)](https://github.com/elbruno/ElBruno.Connectors.SqliteVec)
 [![Twitter Follow](https://img.shields.io/twitter/follow/elbruno?style=social)](https://twitter.com/elbruno)
 
-A **MEAI-native** `VectorStoreCollection` implementation for [sqlite-vec](https://github.com/asg017/sqlite-vec) — zero Semantic Kernel dependency. Store, query, and search vector embeddings using SQLite with full support for the [Microsoft.Extensions.VectorData](https://www.nuget.org/packages/Microsoft.Extensions.VectorData.Abstractions) abstractions.
+A **MEAI-native** `VectorStoreCollection` implementation for [sqlite-vec](https://github.com/asg017/sqlite-vec), based on the original [Semantic Kernel](https://github.com/microsoft/semantic-kernel) implementation. Store, query, and search vector embeddings using SQLite with full support for the [Microsoft.Extensions.VectorData](https://www.nuget.org/packages/Microsoft.Extensions.VectorData.Abstractions) abstractions.
 
 ## Features
 

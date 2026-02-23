@@ -11,7 +11,7 @@
     <PackageId>ElBruno.Connectors.SqliteVec</PackageId>
     <Version>0.1.0</Version>
     <Authors>Bruno Capuano</Authors>
-    <Description>A MEAI-native VectorStoreCollection implementation for sqlite-vec — zero Semantic Kernel dependency.</Description>
+    <Description>A MEAI-native VectorStoreCollection implementation for sqlite-vec, based on the original Semantic Kernel implementation.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/elbruno/ElBruno.Connectors.SqliteVec</PackageProjectUrl>
     <RepositoryUrl>https://github.com/elbruno/ElBruno.Connectors.SqliteVec</RepositoryUrl>

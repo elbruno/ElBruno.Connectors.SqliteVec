@@ -2,7 +2,7 @@ namespace ElBruno.Connectors.SqliteVec;
 
 /// <summary>
 /// A simple text splitter that breaks text into word-based chunks.
-/// Replaces Semantic Kernel's TextChunker.SplitPlainTextParagraphs.
+/// Based on Semantic Kernel's TextChunker.SplitPlainTextParagraphs.
 /// </summary>
 public static class TextSplitter
 {
