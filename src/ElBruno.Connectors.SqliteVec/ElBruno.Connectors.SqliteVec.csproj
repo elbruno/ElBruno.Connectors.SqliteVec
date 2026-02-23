@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net9.0;net10.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ElBruno.Connectors.SqliteVec</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- NuGet Packaging -->
+    <PackageId>ElBruno.Connectors.SqliteVec</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Bruno Capuano</Authors>
+    <Description>A MEAI-native VectorStoreCollection implementation for sqlite-vec — zero Semantic Kernel dependency.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/elbruno/ElBruno.Connectors.SqliteVec</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/elbruno/ElBruno.Connectors.SqliteVec</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>sqlite;vector;embeddings;MEAI;VectorData;sqlite-vec;AI</PackageTags>
+    <PackageIcon>icon_03.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="ElBruno.Connectors.SqliteVec.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\nuget_images\icon_03.png" Pack="true" PackagePath="" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.6" />
+    <PackageReference Include="sqlite-vec" Version="0.1.7-alpha.2" />
+    <PackageReference Include="Microsoft.Extensions.VectorData.Abstractions" Version="9.7.0" />
+    <PackageReference Include="Microsoft.Extensions.AI.Abstractions" Version="9.6.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.6" />
+  </ItemGroup>
+
+</Project>

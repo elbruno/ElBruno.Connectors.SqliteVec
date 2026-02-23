@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/BasicSample/BasicSample.csproj" />
+    <Project Path="samples/IntermediateSample/IntermediateSample.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/ElBruno.Connectors.SqliteVec/ElBruno.Connectors.SqliteVec.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ElBruno.Connectors.SqliteVec.Tests/ElBruno.Connectors.SqliteVec.Tests.csproj" />
+  </Folder>
+</Solution>
